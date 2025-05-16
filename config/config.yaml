@@ -1,0 +1,35 @@
+dirs:
+  data_dir: data
+  train_dir: train
+  test_dir: test
+  image_dir: images
+  mask_dir: masks
+  model_dir: models
+  output_dir: output
+  pred_mask_dir: predicted_masks
+  pred_plot_dir: prediction_plots
+  log_dir: logs
+vars:
+  train_log_name: train.log
+  test_log_name: test.log
+  log_level: 'DEBUG'
+  file_type: '.tif'  # Ensure this matches the file type used for prediction
+  patch_size: 512
+  discard_rate: 0.95
+  batch_size: 16
+  model_arch: 'Unet'
+  model_name: 'trained_landcover_unet_efficientnet-b0_epochs18_patch512_batch16.pth'
+  encoder: 'efficientnet-b0'
+  encoder_weights: 'imagenet'
+  activation: 'softmax2d'
+  optimizer_choice: 'Adam'
+  init_lr: 0.0003
+  reduce_lr_by_factor: 0.5
+  patience_epochs_before_reducing_lr: 5
+  lr_reduce_threshold: 0.0001
+  minimum_lr: 0
+  epochs: 20
+  device: 'cpu'
+  all_classes: ['background', 'building', 'woodland', 'water', 'road']
+  train_classes: ['background', 'building', 'woodland', 'water']
+  test_classes: ['background', 'woodland', 'water','building']
