@@ -5,10 +5,11 @@ Users can select areas on a map and receive land use segmentation powered by a d
 ## Features
 Interactive Map: Select regions on satellite imagery.
 Land Use Segmentation: Deep learning model classifies land into:
-#Background (Unlabelled)
-#Buildings
-#Trees and Greens
-#Water
+- Background (Unlabelled)
+- Buildings
+- Trees and Greens
+- Water
+
 Modern UI: Built with Flutter for Android, Windows, and Web.
 On-device Inference: Uses TensorFlow Lite for fast, private predictions.
 Firebase Integration: User authentication and data management.
