@@ -2,7 +2,7 @@
 A cross-platform application for analyzing land usage from satellite imagery.
 Users can select areas on a map and receive land use segmentation powered by a deep learning model trained on the Land Cover dataset.
 
-![Example Image](assets/image_2.png)
+![Map Page Screenshot](assets/imag_2.png)
 
 ## Features
 Interactive Map: Select regions on satellite imagery.
