@@ -1,7 +1,3 @@
-Certainly! Here’s a **project description** and **step-by-step instructions** for running your Flutter Land Resource Management app. You can copy this into your GitHub repository’s README or description.
-
----
-
 ## Land Resource Management
 
 A cross-platform Flutter application for managing land resources efficiently.  
@@ -78,7 +74,9 @@ It features a modern UI and supports Android, Windows, and Web platforms.
 
 ## Screenshots
 
-_Add screenshots of your app here for better presentation._
+![Uploading image.png…]()
+
+
 
 ---
 
